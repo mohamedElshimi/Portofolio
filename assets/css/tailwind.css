@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.navbar-item {
+    @apply px-2 text-gray-200 hover:text-white cursor-pointer relative
+}
+
+.navbar-item::after{
+    margin-bottom: -5px;
+    width: 0;
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    content: '';
+}
+
+.navbar-item:hover::after {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+}
+
+.btn {
+    @apply px-4 py-2 rounded transition-colors duration-300 block text-center
+}
