@@ -9,7 +9,7 @@
             <meta property="og:image" content="/images/portfolio-image.jpg" />
         </Head>
         <div class="w-40 h-40 rounded-full overflow-hidden bg-slate-100">
-            <img src="/assets/images/elshimi_2.png" class="" alt="">
+            <img src="/images/elshimi_2.png" class="" alt="">
         </div>
         <div>
             <h3 class="text-2xl font-semibold">Mohamed Ahmed Elshimi</h3>
