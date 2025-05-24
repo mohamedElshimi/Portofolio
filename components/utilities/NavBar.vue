@@ -3,7 +3,7 @@
         <div>
             <h3 class="text-xl text-gray-200">Portfolio</h3>
         </div>
-        <div>
+        <!-- <div>
             <ul class="flex gap-3">
                 <li class="navbar-item">Home</li>
                 <li class="navbar-item">About Us</li>
@@ -12,7 +12,7 @@
                 <li class="navbar-item">Projects</li>
                 <li class="navbar-item">Contact Us</li>
             </ul>
-        </div>
+        </div> -->
     </nav>
 </template>
 

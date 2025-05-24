@@ -1,5 +1,5 @@
 <template>
-    <section class="flex  items-center gap-10">
+    <section class="flex flex-wrap items-center gap-10">
         <Head>
             <title>Mohamed Elshimi - Front-End Developer</title>
             <meta name="description" content="Portfolio of Mohamed Elshimi, a Front-End Developer specializing in Vue.js and Nuxt.js. Explore my projects and skills." />
@@ -8,7 +8,7 @@
             <meta property="og:description" content="Explore my portfolio showcasing my skills in Vue.js and Nuxt.js." />
             <meta property="og:image" content="/images/portfolio-image.jpg" />
         </Head>
-        <div class="w-40 h-40 rounded-full overflow-hidden bg-slate-100">
+        <div class="w-40 h-40 mx-auto md:mx-0 rounded-full overflow-hidden bg-slate-100">
             <img src="/images/elshimi_2.png" class="" alt="">
         </div>
         <div>
